@@ -1,5 +1,7 @@
-const user = {
-    name: 'diego'
-}
+import { render } from 'react-dom';
 
-console.log(user.address?.street)
+import { App } from './App';
+
+
+render (<App />, document.getElementById('root'))
+
